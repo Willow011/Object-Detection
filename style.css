@@ -1,0 +1,50 @@
+body {
+    background-color: #6E0D25;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    color: #506C64;
+    background-color: #FFFFB3;
+    padding: 1rem;
+    width: 70rem;
+    border-radius: 1rem;
+}
+
+.zeStuff {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 25rem;
+    height: 24rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: #FFFFB3;
+    transition: 0.4s;
+    color: #506C64;
+}
+
+.card:hover {
+    scale: 1.05;
+    background-color: #506C64;
+    color: #FFFFB3;
+}
+
+.card:active {
+    scale: 1.1;
+}
+
+.zeStuff h4 {
+    font-size: 2rem;
+}
+
+.zeStuff img {
+    height: 15rem;
+    border-radius: 1rem;
+}
