@@ -7,8 +7,8 @@ h1 {
     color: #506C64;
     background-color: #FFFFB3;
     padding: 1rem;
-    width: 70rem;
-    border-radius: 1rem;
+    width: 60rem;
+    border-radius: 2.5rem;
 }
 
 .zeStuff {
@@ -47,4 +47,41 @@ h1 {
 .zeStuff img {
     height: 15rem;
     border-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.page h4 {
+    color: #506C64;
+    background-color: #FFFFB3;
+    padding: 1rem;
+    width: 30rem;
+    border-radius: 2.5rem;
+    margin: 1rem;
+}
+
+canvas {
+    border-radius: 2rem;
+}
+
+.together {
+    display: flex;
+    margin-left: 40rem;
+    margin-right: 40rem;
+}
+
+#home {
+    transition: 0.55s;
+}
+
+#home:hover {
+    scale: 1.05;
+    background-color: #506C64;
+    color: #FFFFB3;
+}
+
+#home:active {
+    scale: 1.1;
 }
